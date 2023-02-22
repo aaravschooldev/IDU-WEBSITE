@@ -1,0 +1,78 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #2196f3;
+    color: white;
+    padding: 20px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  section {
+    width: 80%;
+    text-align: left;
+    animation: fadein 2s;
+  }
+  
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  #donate-button {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  footer {
+    background-color: #2196f3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer nav {
+    margin-left: 20px;
+  }
+  
+  footer nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer nav a:hover {
+    color: #f2f2f2;
+  }
+  
